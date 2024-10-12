@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1728766029 source:c:\users\user\desktop\high_quality_dsa_c_codes\validparenthesis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1728766382 c:\users\user\desktop\high_quality_dsa_c_codes\validparenthesis\stack.h
+	<stdio.h>
+	<stdlib.h>
+	"int_types.h"
+
+1728762791 c:\users\user\desktop\high_quality_dsa_c_codes\validparenthesis\int_types.h
+	<stdint.h>
+	<string.h>
+
+1728767648 source:c:\users\user\desktop\high_quality_dsa_c_codes\validparenthesis\stack.c
+	"stack.h"
+
