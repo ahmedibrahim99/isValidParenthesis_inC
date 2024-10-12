@@ -32,7 +32,7 @@ unsigned char isValidParenthesis(char *s){
                                     (No need, pushing into empty stack (NULL) is handled)*/
 
         for(int i = 0 ; i < strlen(s) ; i++){
-            //stack_print(top); /*Causes timeout + Not correct!*/
+            //stack_print(top); /*Causes timeout*/
             if( s[i] == '(' || s[i] == '[' || s[i] == '{'){
                 stack_push(&top , s[i]);
                 if(pushCount == ~0){
