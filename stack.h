@@ -29,7 +29,7 @@ typedef char stackData_t;
 /*------------------------Section: API Interface Functions Prototypes -----*/
 void        stack_push  (stack_t *topAddr, char data);
 stackData_t stack_pop   (stack_t *topAddr);
-stackData_t stack_peak  (stack_t top);
+stackData_t stack_peek  (stack_t top);
 void        stack_print (stack_t top);
 void        stack_free  (stack_t top);
 
